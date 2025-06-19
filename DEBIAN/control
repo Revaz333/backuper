@@ -1,0 +1,7 @@
+Package: backuper
+Version: 0.0.1
+Section: utils
+Priority: optional
+Architecture: amd64
+Maintainer: Gg-soft <griffin.grid.official@gmail.com>
+Description: Easy backup creator

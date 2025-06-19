@@ -1,0 +1,5 @@
+#!/bin/bash
+systemctl daemon-reexec
+systemctl daemon-reload
+systemctl enable backuper.service
+systemctl start backuper.service
