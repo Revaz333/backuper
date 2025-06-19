@@ -2,3 +2,4 @@ test
 storage/*
 !storage/.gitkeep
 config/config.yml
+public.key
