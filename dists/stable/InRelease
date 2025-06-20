@@ -1,34 +1,41 @@
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA512
 
-Date: Fri, 20 Jun 2025 00:02:24 +0000
+Architectures: amd64
+Codename: stable
+Components: main
+Date: Fri, 20 Jun 2025 00:12:45 +0000
+Description: Backuper APT repository
+Label: backuper
+Origin: backuper
+Suite: stable
 MD5Sum:
- b57021da356f6e69b48fe98eefd4207e               38 Release
+ 096d90f3f65a1b70c29c50a712ee9e18              177 Release
  4aeb625f62495a6483caeaeebf05e562              387 main/binary-amd64/Packages
  ade67b086a2a66c9e75d176fdbadad8c              311 main/binary-amd64/Packages.gz
 SHA1:
- 16d4e7943556e1ca59a003bc9acce4612f1d7afa               38 Release
+ eac369d5ee3ac9971f674ba31c1b27cc9e924dcd              177 Release
  50732bafcbff62dcc32011d7e08e9b07f275748d              387 main/binary-amd64/Packages
  15748359983e488dba7c48975685519ca5b749e7              311 main/binary-amd64/Packages.gz
 SHA256:
- 1d43301acecbd0b74f666a82b7df32d5d2b2e4126f98edd56a4646d6a0c540f5               38 Release
+ fe6c1f672f95fb20242efe14d499cd6cd5eedbd0a714b65e31f6545889627572              177 Release
  a210c3303f186f9bf4398d26383d3ff177115ae72dfb71aeaceb8dc734b81c81              387 main/binary-amd64/Packages
  6df55460bcd26e99622ec7e506ac2852e30de9fc6fd311cf2e8a596977800378              311 main/binary-amd64/Packages.gz
 SHA512:
- 8539ba5019134ce6d8d50068e79de7631ece8915e64081fd427e70db4e517790b072522ae4899bac99fb4cca78fafb701f51d994160e3effd598dc98cf7d9dfc               38 Release
+ 90ca13b884f862bfaa3f4279fdf115d74b4a6da9acd09cadb663768c5c69d9d2dfd73939532b321a26e7a21035283e1a5fda6d48d6793f1a48d3706c755b4333              177 Release
  88d922857e1fdc1fe129fb4575dfb4b9b933fa28ab6e005e4da0c4a18a92359ce3655a7df4245e346b8276b87b85d6ce5495d139e02a80d4eec7a44c55e9077e              387 main/binary-amd64/Packages
  a24b03ad14aae6d033bfc6d8b0060f94d79275e2902068a763651221db61c8e05dab11a406dd411c97fa9ea4de013bd54fb23e98b0ed006a2394f8ea9f7c2d3a              311 main/binary-amd64/Packages.gz
 -----BEGIN PGP SIGNATURE-----
 
-iQGzBAEBCgAdFiEEZCSzVL/gUhG7SYnT7KcX2P4QOmcFAmhUpRQACgkQ7KcX2P4Q
-Omc3OAv+KbJhgwi7VWB0ERSNrWp4PsxvVI6xAbSqvfn0WsIycs0RxxGhTsQnpune
-om6M0ideGq8Gk551m7zbAOxWlkoQmZiqBzxrnvcX8awYuUHQCdo7EV7ZJMRJvNQF
-4Wz4g2rsQS1+TSwM0PvbbihxMH7//1IE66WYSKZB9kiKbD9+KOh4vOkd0oN7JZyg
-xGH5DRgRI0zgB4YtKuGiLMMYo3cU8fKhpKf8NLqPajIcN1KG/gVJbGD2Jm3mOcN2
-rMGrPPsxhfEkEgmVkz2DDkTLyoOaWIOli4XRbQnU92FMAyqYm2uptzWSPxqAhsjr
-juXBaS1/hX8lsCSVgHadEOOweC5GbuOhmg4WOCRLnCDG5pR6ivx5VKq+bPF/bseE
-qYkzYKoDWdNnaPntZbJxvvxY+tDjqTHUwnzGY3NkQwKAdiybGwOpbZxoFO+HSlQ8
-KVU3oFC3mirv/GgGLEqCYytgOWu4itNFdFL/J4NjMWYu6X+hd4IFuNomMsbO35fb
-bDNBGujX
-=mNkG
+iQGzBAEBCgAdFiEEZCSzVL/gUhG7SYnT7KcX2P4QOmcFAmhUp5EACgkQ7KcX2P4Q
+OmdOngv9Fd7wzj/rXrtbJZJeNsY8NOIP7suHlCSlPdoBEu+XNhWXjdabK2x64qgh
+7p3AWq2cLvn1LhSdYZHyzia+asK2vghucrhgvr4Hze7vurNiL1q3u4lkw6HT0zOd
+Wgr/C/KWBOvlNhbHsOqczMYGTkG7NqpsFpcixWgmPsvdocMHAMiHb0bCI6qqRaKQ
+e9NgtJa/41sR+zrIZ8Xbd+rrBGpVcSgK0E+Fcr0Pa62WoiC/3woQF4r6jcfkmD1a
+EwGuF19Rec3xJmzBUH3gF+roPbpGD/toG9+3cG0RJx1oYCbHwe+G/RuAOv50UIC5
+DsdRfwLziNsYd+w5Rcp2xAJNWvYSe0s6xXQvZY3IY61MUc3Zi6kAqLtAicsYKGza
+OIngFIv403vUi+lFdlg31RY/xHmximDHedXVzCsTlErSBg5+ZGfEQhNYfKFfHKy4
+y9Fmxda7FvvEvYvOyby5f0Usfn3Hk2fRXO7fKx/wPvTdFrqvBIp8Ff8U00+DXhX1
+GNOhNzrw
+=wc3l
 -----END PGP SIGNATURE-----
