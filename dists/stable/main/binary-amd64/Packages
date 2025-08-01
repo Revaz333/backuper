@@ -1,12 +1,12 @@
 Package: backuper
-Version: 1.0.0
+Version: 1.0.2
 Architecture: amd64
 Maintainer: Gg-soft <griffin.grid.official@gmail.com>
-Filename: pool/backuper/backuper_1.0.1_amd64.deb
-Size: 21728328
-MD5sum: bb7df11dd472e5883cd5b6ed380affc6
-SHA1: c9065e68094b7cb236b86e8d0dae63dc0fdd4809
-SHA256: b91458c0945bc6f8af3b7d0658309e941bf99615189b9d8d50027c1a7dd840fd
+Filename: pool/backuper/backuper_1.0.2_amd64.deb
+Size: 61673914
+MD5sum: 5b33ce863eb8fd53558445f431d66b40
+SHA1: 53091fddd0a2d8d8fb55949ab35445bf49673901
+SHA256: b22ad4c03007622742a0ade3f4094055bbe9b6115198b3f08f3bb2333a6d5193
 Section: utils
 Priority: optional
 Description: Easy backup creator

@@ -50,7 +50,7 @@ func New() *Config {
 
 func (cfg *Config) LoadConfig() error {
 
-	viper.SetConfigFile("config/config.yml")
+	viper.SetConfigFile("/etc/backuper/config.yml")
 
 	cfg.setDefaults()
 
