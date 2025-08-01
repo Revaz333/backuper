@@ -1,7 +1,5 @@
 package drivers
 
-import "fmt"
-
 type (
 	FTP struct {
 	}
@@ -22,12 +20,10 @@ func NewFTP() DriverInterface {
 
 func (d *FTP) Init(cfgData any) error {
 
-	cfg, ok := cfgData.(FTPConfig)
-	if !ok {
-		return fmt.Errorf("config type must be - `S3Config`")
-	}
-
-	fmt.Println("cfg", cfg)
+	// cfg, ok := cfgData.(FTPConfig)
+	// if !ok {
+	// 	return fmt.Errorf("config type must be - `S3Config`")
+	// }
 
 	return nil
 }
@@ -48,6 +44,11 @@ func (d *FTP) CreateFolder(folderName string) error {
 }
 
 func (d *FTP) Upload(folderName, filePath string) error {
+
+	return nil
+}
+
+func (d *FTP) Cleanup(folderName string, maxImages int) error {
 
 	return nil
 }

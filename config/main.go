@@ -39,6 +39,7 @@ type (
 		Excluded_Dirs []string
 		Frequency     int64
 		Spec          string
+		Max_Images    int
 	}
 )
 

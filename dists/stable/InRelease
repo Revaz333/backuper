@@ -4,38 +4,38 @@ Hash: SHA512
 Architectures: amd64
 Codename: stable
 Components: main
-Date: Fri, 20 Jun 2025 00:12:45 +0000
+Date: Fri, 01 Aug 2025 15:59:33 +0000
 Description: Backuper APT repository
 Label: backuper
 Origin: backuper
 Suite: stable
 MD5Sum:
- 096d90f3f65a1b70c29c50a712ee9e18              177 Release
- 4aeb625f62495a6483caeaeebf05e562              387 main/binary-amd64/Packages
- ade67b086a2a66c9e75d176fdbadad8c              311 main/binary-amd64/Packages.gz
+ 48570aba87f5bcee7c3bb2e7ef326cd9              177 Release
+ 0303eee22369da79a7db9d43314c2746              400 main/binary-amd64/Packages
+ 22c1cffb844b8bc5fb79e699d24149f3              319 main/binary-amd64/Packages.gz
 SHA1:
- eac369d5ee3ac9971f674ba31c1b27cc9e924dcd              177 Release
- 50732bafcbff62dcc32011d7e08e9b07f275748d              387 main/binary-amd64/Packages
- 15748359983e488dba7c48975685519ca5b749e7              311 main/binary-amd64/Packages.gz
+ 05d0165e00a878bb1d4dc7b94094f1c9e3f50f55              177 Release
+ 0e1fe444cd3ae69c1cb71105c97cdbbbfe92432b              400 main/binary-amd64/Packages
+ d5f2c2f4d9e6ddbdee17107be51ade2e8d585fbb              319 main/binary-amd64/Packages.gz
 SHA256:
- fe6c1f672f95fb20242efe14d499cd6cd5eedbd0a714b65e31f6545889627572              177 Release
- a210c3303f186f9bf4398d26383d3ff177115ae72dfb71aeaceb8dc734b81c81              387 main/binary-amd64/Packages
- 6df55460bcd26e99622ec7e506ac2852e30de9fc6fd311cf2e8a596977800378              311 main/binary-amd64/Packages.gz
+ 1d1825b5d555dc3f6412ddd1e0f34e96cb80ea8f89cbd67f269301a185a5fc6d              177 Release
+ b39f457a7e53d68994efa0ab364c3d63845d42979db8870fd7dd29abf2abe644              400 main/binary-amd64/Packages
+ 1cd252bf97f3e62c39eeea5187cb1516ec015d8f7a1d2108d272d0937be96910              319 main/binary-amd64/Packages.gz
 SHA512:
- 90ca13b884f862bfaa3f4279fdf115d74b4a6da9acd09cadb663768c5c69d9d2dfd73939532b321a26e7a21035283e1a5fda6d48d6793f1a48d3706c755b4333              177 Release
- 88d922857e1fdc1fe129fb4575dfb4b9b933fa28ab6e005e4da0c4a18a92359ce3655a7df4245e346b8276b87b85d6ce5495d139e02a80d4eec7a44c55e9077e              387 main/binary-amd64/Packages
- a24b03ad14aae6d033bfc6d8b0060f94d79275e2902068a763651221db61c8e05dab11a406dd411c97fa9ea4de013bd54fb23e98b0ed006a2394f8ea9f7c2d3a              311 main/binary-amd64/Packages.gz
+ c28d7109d9065cbcc04321b69566245a00186dcc57fee3981843cdcb3cd40edd976ee311bf40075141ad579980d025f4540d87fe8b4558e627735fe0881317fc              177 Release
+ 9248732a8394955c262792c49e861eb9178ffadbb4242a56e272d16dd2c57c623983b62290135b504d84f6cc6420cde92a7073b123e04b34fde2621adea659e4              400 main/binary-amd64/Packages
+ c66c5d4073e54f19163e826355e8dfad2dd96dd18197aef2699c7e67340d3f126e1b3fd6202fedfe15dbfb60f78ac54f1f22b343c4c85905eac2727159fb582b              319 main/binary-amd64/Packages.gz
 -----BEGIN PGP SIGNATURE-----
 
-iQGzBAEBCgAdFiEEZCSzVL/gUhG7SYnT7KcX2P4QOmcFAmhUp5EACgkQ7KcX2P4Q
-OmdOngv9Fd7wzj/rXrtbJZJeNsY8NOIP7suHlCSlPdoBEu+XNhWXjdabK2x64qgh
-7p3AWq2cLvn1LhSdYZHyzia+asK2vghucrhgvr4Hze7vurNiL1q3u4lkw6HT0zOd
-Wgr/C/KWBOvlNhbHsOqczMYGTkG7NqpsFpcixWgmPsvdocMHAMiHb0bCI6qqRaKQ
-e9NgtJa/41sR+zrIZ8Xbd+rrBGpVcSgK0E+Fcr0Pa62WoiC/3woQF4r6jcfkmD1a
-EwGuF19Rec3xJmzBUH3gF+roPbpGD/toG9+3cG0RJx1oYCbHwe+G/RuAOv50UIC5
-DsdRfwLziNsYd+w5Rcp2xAJNWvYSe0s6xXQvZY3IY61MUc3Zi6kAqLtAicsYKGza
-OIngFIv403vUi+lFdlg31RY/xHmximDHedXVzCsTlErSBg5+ZGfEQhNYfKFfHKy4
-y9Fmxda7FvvEvYvOyby5f0Usfn3Hk2fRXO7fKx/wPvTdFrqvBIp8Ff8U00+DXhX1
-GNOhNzrw
-=wc3l
+iQGzBAEBCgAdFiEEZCSzVL/gUhG7SYnT7KcX2P4QOmcFAmiM5G4ACgkQ7KcX2P4Q
+OmeecAv/fokiebVQknj4PgcyNcYhrnPO5LBaixUsTqL9cz0bjksG+l4TTFhIl207
+zNiR2fZa2SSIGgcqNIEiFTIHiolfjccmvveG96uuny0Jm5TeGw+azG13nqxbQMpl
+leobEQ28iRmgqLXlzwxy0yKUFm1xD0Nx+4bqbAukkRu0mgDOCudd831A57hKxTdU
+oY6ChAlj9eBKUucw0q9CNhf+65gM9Weyzc1pFvJowkbWTf0Iul+Xn5phVrWzxOG2
+TzbqlkqQQPWyC9gcebSBq4PGhmGf9DuoxfOfb/NgUtH4/u8JToA+P7sYGS5DEh8U
+LOiZu+kARUPxBrmPK4kPuIt0LmLBxUUTgzlLffe3ksXZVDVHOHxPFiesr+y+NqSM
+cjznTSlk/esvY1tQv8vzExWhVxs8pvw6sI28DjLp3pGl29rGyFdNhHNNm7Swoirp
+kBvebc7b9edwIump1iIvluTDLJ4BEwNNm31XxYzavqVr5PGspgZq8RE+tzFxBP89
+R3GRYWFX
+=3SHR
 -----END PGP SIGNATURE-----

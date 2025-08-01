@@ -13,6 +13,7 @@ type (
 		CheckFolderExist(folderName string) (bool, error)
 		CreateFolder(folderName string) error
 		Upload(folderName, filePath string) error
+		Cleanup(folderName string, maxImages int) error
 	}
 
 	Driver struct {
@@ -33,6 +34,7 @@ func (d *Driver) LoadAllowedDrivers() map[string]func() DriverInterface {
 }
 
 func calculateSHA256(content []byte) string {
+
 	hash := sha256.Sum256(content)
 	return hex.EncodeToString(hash[:])
 }
