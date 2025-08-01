@@ -9,12 +9,22 @@ import (
 type (
 	Config struct {
 		Services map[string]ConfigService
-		S3       struct {
-			Region     string
-			Access_Key string
-			Secret_Key string
-			Endpoint   string
-			Bucket     string
+		Drivers  struct {
+			S3 map[string]struct {
+				Region     string
+				Access_Key string
+				Secret_Key string
+				Endpoint   string
+				Bucket     string
+			}
+
+			FTP map[string]struct {
+				Host     string
+				User     string
+				Passwrod string
+				Port     int
+				Folder   string
+			}
 		}
 	}
 
@@ -22,6 +32,10 @@ type (
 		Target_Folder string
 		File_Name     string
 		Archiver      string // default tar
+		Driver        struct {
+			Type    string
+			Profile string
+		}
 		Excluded_Dirs []string
 		Frequency     int64
 		Spec          string
@@ -35,7 +49,7 @@ func New() *Config {
 
 func (cfg *Config) LoadConfig() error {
 
-	viper.SetConfigFile("/etc/backuper/config.yml")
+	viper.SetConfigFile("config/config.yml")
 
 	cfg.setDefaults()
 

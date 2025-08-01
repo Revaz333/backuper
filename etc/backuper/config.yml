@@ -1,0 +1,31 @@
+services:
+  zvet_ru:
+    target_folder: /home/hiki/projects/zvet
+    file_name: testfol
+    archiver: 'tar'
+    driver:
+      type: s3
+      profile: zvet_ru
+    spec: '30 * * * *'
+    excluded_dirs:
+      # - bitrix
+      - upload
+      - cache
+  # zvet_ru-db:
+  #   target_folder: /home/hiki/projects/docker/pgsql
+  #   file_name: testfoldb
+  #   archiver: 'tar'
+  #   driver:
+  #     type: s3
+  #     profile: zvet_ru
+  #   spec: '09 * * * *'
+  #   excluded_dirs:
+  #     - logs
+drivers:
+  s3:
+    zvet_ru:
+      endpoint: https://s3.twcstorage.ru
+      access_key: EEPYPELW5NIVYMBZQNI3
+      secret_key: NCdzk3UuWA9cRZeLswGOxBiknncihdqDKH5dpj25
+      region: ru-1
+      bucket: 2134cc99-d6b1e233-8d46-4720-bbbe-cfc05c2705e4
